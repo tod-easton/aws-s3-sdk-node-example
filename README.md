@@ -6,7 +6,7 @@ Simple Javascript Node example for uploading a text file to Amazon S3 after crea
     - Edit the file `~/.aws/credentials` with your saved credentials. For Windows, it will be `C:\Users\<yourUserName>\.aws\credentials` or similar.
 1. Fork this repository, clone and *change* into the project directory
 1. Run `npm install` to install the aws-sdk.
-1. Open s3-uploadExample.js
+1. Open main.js and follow the comment instructions
 
 ## Usage
 1. `npm run upload`
