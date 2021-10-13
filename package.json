@@ -8,6 +8,6 @@
   },
   "type": "module",
   "scripts": {
-    "start": "node main.js"
+    "upload": "node main.js"
   }
 }
