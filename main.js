@@ -4,9 +4,10 @@ import { s3Client } from "./client.js";
 
 // Set the parameters
 const params = {
-  Bucket: "<BUCKET_NAME>", // The name of the bucket. For example, 'sample_bucket_101'.
-  Key: "<FILENAME>", // The name of the object. For example, 'sample_upload.txt'.
-  Body: "<BODY_CONTENT>", // The content of the object. For example, 'Hello world!".
+  Bucket: "todstestbucketforexercise3", // The name of the bucket. For example, 'sample_bucket_101'.  BUCKET IS CREATED WITH PUBLIC READ ACCESS BY DEFAULT
+  Key: "todstestfile3.txt", // The name of the object. For example, 'sample_upload.txt'.
+  Body: "Hello Ta-dow! 3", // The content of the object. For example, 'Hello world!".
+  ACL: "public-read"
 };
 
 const run = () => {
